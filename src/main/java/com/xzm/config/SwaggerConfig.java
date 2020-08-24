@@ -17,7 +17,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * http://localhost:8000/swagger-ui.html
- * http://localhost:8000/doc.html1
+ * http://localhost:8000/doc.html1221
  */
 
 @Configuration
