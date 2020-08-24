@@ -1,0 +1,22 @@
+#jwt
+jwt:
+  header: Authorization
+  secret: mySecret
+  # token 过期时间 2个小时
+  expiration: 7200000
+  auth:
+    # 授权路径
+    path: /login
+    # 获取用户信息
+    account: /info
+
+#是否允许生成代码，生产环境设置为false
+generator:
+  enabled: true
+
+#是否开启 swagger-ui
+swagger:
+  enabled: true
+
+javabackend:
+  name: 开发模块

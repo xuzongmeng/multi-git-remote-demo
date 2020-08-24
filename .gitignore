@@ -1,0 +1,8 @@
+### IDEA ###
+.idea/*
+*.iml
+*/target/*
+*/*.iml
+/target/jenkins-maven-demo.jar
+/target/
+!/.idea/
